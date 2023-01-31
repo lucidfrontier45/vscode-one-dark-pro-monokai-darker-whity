@@ -1,5 +1,5 @@
 {
-	"name": "One Dark Pro Monokai Darker",
+	"name": "One Dark Pro Monokai Darker Whity",
 	"type": "dark",
 	"colors": {
 		"focusBorder": "#181a1f",
@@ -17,6 +17,7 @@
 		"scrollbarSlider.background": "#4e566680",
 		"scrollbarSlider.hoverBackground": "#5a637580",
 		"scrollbarSlider.activeBackground": "#747d9180",
+		"editor.foreground": "#dddddd",
 		"editor.background": "#121212",
 		"editorWidget.background": "#181a1f",
 		"editor.selectionBackground": "#3e4451",
@@ -89,7 +90,12 @@
 		},
 		{
 			"name": "js template-expression",
-			"scope": "punctuation.definition.template-expression.begin.js,punctuation.definition.template-expression.end.js,punctuation.definition.template-expression.begin.ts,punctuation.definition.template-expression.end.ts",
+			"scope": [
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.ts"
+			],
 			"settings": {
 				"foreground": "#c678dd"
 			}
@@ -216,16 +222,6 @@
 			"scope": "variable.other.object",
 			"settings": {
 				"foreground": "#61afef"
-			}
-		},
-		{
-			"name": "Other variable",
-			"scope": [
-				"variable.other.property",
-				"variable.other.block"
-			],
-			"settings": {
-				"foreground": "#abb2bf"
 			}
 		},
 		{
