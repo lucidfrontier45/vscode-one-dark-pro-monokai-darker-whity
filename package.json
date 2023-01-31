@@ -1,9 +1,9 @@
 {
-    "name": "one-dark-pro-monokai-darker",
-    "displayName": "One Dark Pro Monokai Darker Theme",
-    "description": "A Darker One Dark Pro variation with Monokai scheme",
-    "version": "1.1.0",
-    "publisher": "eserozvataf",
+    "name": "one-dark-pro-monokai-darker-whity",
+    "displayName": "One Dark Pro Monokai Darker Whity Theme",
+    "description": "A Darker One Dark Pro variation with Monokai scheme and whiter foreground texts",
+    "version": "1.2.0",
+    "publisher": "lucidfrontier45",
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -14,20 +14,20 @@
     "contributes": {
         "themes": [
             {
-                "label": "One Dark Pro Monokai Darker",
+                "label": "One Dark Pro Monokai Darker Whity",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneDarkProMonokaiDarker-color-theme.json"
+                "path": "./themes/OneDarkProMonokaiDarkerWhity-color-theme.json"
             }
         ]
     },
     "repository": {
-        "type": "git",
-        "url": "https://github.com/eserozvataf/vscode-one-dark-pro-monokai-darker.git"
+        "type": "https",
+        "url": "https://github.com/lucidfrontier45/vscode-one-dark-pro-monokai-darker-whity.git"
     },
     "bugs": {
-        "url": "https://github.com/eserozvataf/vscode-one-dark-pro-monokai-darker/issues"
+        "url": "https://github.com/lucidfrontier45/vscode-one-dark-pro-monokai-darker-whity/issues"
     },
-    "homepage": "https://github.com/eserozvataf/vscode-one-dark-pro-monokai-darker/blob/master/README.md",
+    "homepage": "https://github.com/lucidfrontier45/vscode-one-dark-pro-monokai-darker-whity",
     "keywords": [
         "vscode",
         "theme",
@@ -35,6 +35,6 @@
         "monokai",
         "darker"
     ],
-    "author": "Eser Ozvataf <eser@ozvataf.com> (http://eser.ozvataf.com)",
+    "author": "杜世橋 Du Shiqiao <lucidfrontier.45@gmail.com>",
     "license": "MIT"
 }
