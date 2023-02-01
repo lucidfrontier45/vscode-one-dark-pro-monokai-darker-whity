@@ -211,17 +211,26 @@
 				"entity.name.module",
 				"entity.name.type",
 				"storage.identifier",
-				"support.class"
 			],
 			"settings": {
 				"foreground": "#61afef"
 			}
 		},
+		// {
+		// 	"name": "Variable Object",
+		// 	"scope": "variable.other.object",
+		// 	"settings": {
+		// 		"foreground": "#61afef"
+		// 	}
+		// },
 		{
-			"name": "Variable Object",
-			"scope": "variable.other.object",
+			"name": "Other variable",
+			"scope": [
+				"variable.other.property",
+				"variable.other.block"
+			],
 			"settings": {
-				"foreground": "#61afef"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -305,7 +314,8 @@
 			"name": "Library class/type",
 			"scope": [
 				"support.type",
-				"support.variable"
+				"support.variable",
+				"support.class"
 			],
 			"settings": {
 				"foreground": "#56b6c2"
