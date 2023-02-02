@@ -234,6 +234,13 @@
 			}
 		},
 		{
+			"name": "Enum Member",
+			"scope": "variable.other.enummember",
+			"settings": {
+				"foreground": "#dddddd"
+			}
+		},
+		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {

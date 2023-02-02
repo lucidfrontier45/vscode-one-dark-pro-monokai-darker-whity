@@ -2,7 +2,7 @@
     "name": "one-dark-pro-monokai-darker-whity",
     "displayName": "One Dark Pro Monokai Darker Whity Theme",
     "description": "A Darker One Dark Pro variation with Monokai scheme and whiter foreground texts",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "publisher": "lucidfrontier45",
     "engines": {
         "vscode": "^1.13.0"
